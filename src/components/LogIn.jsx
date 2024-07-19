@@ -34,6 +34,9 @@ const LogIn = ({ open, handleClose }) => {
                 Email: email,
                 Password: password
             });
+            setEmail("");
+            setPassword("");
+
             handleClose();
             setSnackbarOpen(true);
             // window.location.reload(); // для перезагрузки оставил временно

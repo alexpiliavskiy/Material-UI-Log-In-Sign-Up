@@ -38,6 +38,11 @@ const SignUp = ({ open, handleClose }) => {
                 Email: email,
                 Password: password
             });
+            setFirstName("");
+            setSecondName("");
+            setEmail("");
+            setPassword("");
+
             handleClose();
             setSnackbarOpen(true);
         }
