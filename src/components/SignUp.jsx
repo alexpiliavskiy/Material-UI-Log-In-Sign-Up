@@ -103,6 +103,7 @@ const SignUp = ({ open, handleClose }) => {
                         error={passwordError}
                         helperText={passwordError ? "Password must be at least 6 characters" : " "}
                     />
+                    <Typography color="#767676" sx={{  fontSize: "14px", lineHeight: "24px", textAlign: "left" }}>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</Typography>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={handleClose} color="inherit" variant="outlined">
